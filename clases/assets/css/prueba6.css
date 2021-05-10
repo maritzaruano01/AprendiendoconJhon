@@ -1,0 +1,31 @@
+header{
+    height: 56px; /*alto del cuadro*/
+    /* color de fondo  */
+    background-color: #fff;
+}
+ul{
+    /* Quita las viletas */
+    list-style: none;
+}
+#logo{
+    /* distancia hacia afuera del cuadro */
+    margin-left: 250px;
+    /* posiciona los elementos a la izquierda */
+    float: left;
+    /* ancho del cuadro */
+    width: 140px;
+}
+ul > li{
+       /* posiciona los elementos a la izquierda */
+    float: left;
+    /* Ancho del cuadro*/
+    width: 170px;
+    /*Modifica el texto*/
+    text-transform: uppercase;
+    /*Tamaño de la fuente*/
+    font-size: 15px;
+    /*Centra el texto*/
+    text-align: center;
+    /*agrega negrita*/
+    font-weight: bolder;
+}
