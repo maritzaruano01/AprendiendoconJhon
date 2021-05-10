@@ -30,3 +30,83 @@ header{
     justify-content: center;
     
 }
+nav ul{
+    color: white;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    width: 100px;
+    margin: 0px 10px 0 px 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+#logo{
+    background-image: url('../images/logo.png.png');
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    float:left;
+    margin-right: 250px;
+}
+
+#publicidad{
+    background-color: #fff;
+    height: 320px;
+    width: 100%;
+
+}
+#publicidad article{
+    background-color: black;
+    height: 300px;  
+    margin-top: 10px;
+    width: 25%;
+    float: left;
+}
+#publicidad article div{
+    background-color: white;
+    width: 80%;
+    height: 280px;
+    margin:auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+#noticia{
+    width: 100%;
+    height: 300px;
+    background-color: wheat;
+}
+#noticia article{
+    width: 60%;
+}
+
+#noticia #img-noticia{
+    width: 40%;
+    background-image: url("..//images/noticia.png");
+    height: 300px;
+}
+#noticia h1{
+font-size: 30px;
+text-align: center;
+}
+ #noticia p{
+     font-size: 20px;
+     margin-top: 20px;
+     text-align: justify;
+ }
